@@ -111,7 +111,7 @@ npm run dev
 
 ## Postman: проверка API (обязательно на защите)
 
-Фот тут более подробно про Postman - https://github.com/dv0retsky/fastapi-tutorial/blob/main/FAPI4_Postman/FAPI4_Postman.md
+Вот тут более подробно про Postman - https://github.com/dv0retsky/fastapi-tutorial/blob/main/FAPI4_Postman/FAPI4_Postman.md
 
 ### Быстрая настройка (рекомендуется)
 
