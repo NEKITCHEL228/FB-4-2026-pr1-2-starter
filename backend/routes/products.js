@@ -26,7 +26,7 @@ router.get("/:id", (req, res) => {
 router.post("/", (req, res) => {
   const { title, price } = req.body;
 
-  // Минимальная валидация (чтобы было о чём говорить на паре)
+  // Минимальная валидация 
   if (typeof title !== "string" || title.trim() === "") {
     return res.status(400).json({ error: "title is required (string)" });
   }
@@ -82,7 +82,7 @@ router.delete("/:id", (req, res) => {
   // Вариант 1: вернуть 204 No Content (часто делают так)
   // return res.status(204).send();
 
-  // Вариант 2: вернуть "ok" (проще объяснять студентам)
+  // Вариант 2: вернуть "ok" 
   res.json({ ok: true });
 });
 
